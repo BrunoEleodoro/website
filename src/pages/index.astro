@@ -3,105 +3,183 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
-	title="Thunder Finance"
-	description="Thunder.Finance is a mixer that incentives Privacy paying yields"
+	title="DPCS — Thunder Finance"
+	description="DPCS by Thunder Finance: Decentralized Proof of Credit Score for compliant privacy-preserving uncollateralized crypto lending."
 >
-	<div class="relative min-h-screen overflow-hidden bg-[#171515] text-white">
+	<div class="relative min-h-screen overflow-hidden bg-[#0b0b0d] text-white normal-case">
 		<div
-			class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+			class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
 			style={`background-image: url("/Landing%20hero.png");`}
 			aria-hidden="true"
 		></div>
-		<div class="absolute inset-0 bg-gradient-to-b from-black/55 via-black/35 to-black/65" aria-hidden="true"></div>
+		<div class="absolute inset-0 bg-gradient-to-b from-black/85 via-black/75 to-black/90" aria-hidden="true"></div>
 
-		<main class="relative z-10 mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center gap-10 px-6 py-14 text-center">
-			<div class="flex flex-col items-center gap-6">
-				<img
-					src="/logo-header-index.png"
-					alt="Thunder Finance logo"
-					class="mx-auto h-40 w-auto sm:h-48 md:h-56"
-					loading="eager"
-					decoding="async"
-				/>
-				<p class="text-lg font-normal leading-relaxed text-[#FED000] sm:text-xl md:text-2xl">
-					A Mixer That Incentives Privacy Paying Yields
-				</p>
-			</div>
+		<main class="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-12 text-left md:px-10">
+			<p class="text-xs tracking-[0.2em] text-white/70 sm:text-sm">web3thunder.finance · hello@web3thunder.finance · @web3thunderfin</p>
 
-			<div class="flex flex-col items-center gap-6">
-				<a
-					href="https://web3-thunder-finance-web.vercel.app/"
-					target="_blank"
-					rel="noreferrer"
-					class="inline-flex items-center gap-2 rounded-full bg-[#FED000] px-10 py-3.5 text-lg font-semibold text-black shadow-[0_12px_35px_rgba(254,208,0,0.35)] transition hover:translate-y-[-1px] hover:shadow-[0_16px_45px_rgba(254,208,0,0.45)] active:translate-y-0"
-				>
-					Join The MiniApp
-					<img src="/fire.svg" alt="" aria-hidden="true" class="h-5 w-5" loading="lazy" decoding="async" />
-				</a>
-				<a
-					href="https://github.com/web3thunderfinance"
-					target="_blank"
-					rel="noreferrer"
-					aria-label="GitHub"
-					class="flex h-14 w-14 items-center justify-center rounded-full border border-white/30 bg-transparent text-white transition hover:border-white hover:bg-white/10"
-				>
-					<img src="/github.svg" alt="" aria-hidden="true" class="h-8 w-8" loading="lazy" decoding="async" />
-				</a>
-				<a
-					href="https://x.com/web3thunderfin"
-					target="_blank"
-					rel="noreferrer"
-					aria-label="X"
-					class="flex h-14 w-14 items-center justify-center rounded-full border border-white/30 bg-transparent text-xl font-semibold text-white transition hover:border-white hover:bg-white/10"
-				>
-					X
-				</a>
-			</div>
-
-			<section class="w-full max-w-4xl space-y-8 rounded-3xl border border-white/10 bg-black/40 p-8 text-left backdrop-blur">
-				<div class="space-y-3">
-					<p class="text-sm font-semibold uppercase tracking-[0.3em] text-[#FED000]/80">Details</p>
-					<p class="text-base leading-relaxed text-white/90">
-						An EVM-compatible privacy-focused mixer that deploys pooled legit deposits into external lending
-						markets (e.g. Aave) to earn real yield. After KYC, users deposit supported ERC20 stablecoins through
-						commitment-based privacy, accrue yield while funds are pooled, and later withdraw principal +
-						proportional yield using a secret (commitment/nullifier) flow. The destination wallet is also KYC'd
-						and the protocol is fully compliant with OFAC and other AML regulations.
-					</p>
+			<section class="rounded-3xl border border-[#FED000]/30 bg-black/40 p-7 backdrop-blur-sm sm:p-10">
+				<div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+					<div class="max-w-3xl space-y-4">
+						<p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#FED000]">DPCS — Thunder Finance</p>
+						<h1 class="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">DPCS — Decentralized Proof of Credit Score</h1>
+						<p class="text-xl text-[#FED000] sm:text-2xl">Uncollateralized crypto lending</p>
+						<p class="max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg">
+							Thunder Finance bridges traditional credit infrastructure with DeFi, enabling compliant privacy-preserving loans without requiring borrowers to lock up collateral.
+						</p>
+						<div class="flex flex-wrap gap-3 pt-2">
+							<a
+								href="https://web3-thunder-finance-web.vercel.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="rounded-full bg-[#FED000] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-110"
+							>
+								Join The MiniApp
+							</a>
+							<a
+								href="https://x.com/web3thunderfin"
+								target="_blank"
+								rel="noreferrer"
+								class="rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:border-[#FED000] hover:text-[#FED000]"
+							>
+								Check our X
+							</a>
+							<a
+								href="https://github.com/web3thunderfinance"
+								target="_blank"
+								rel="noreferrer"
+								class="rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:border-[#FED000] hover:text-[#FED000]"
+							>
+								Git
+							</a>
+						</div>
+					</div>
+					<img
+						src="/logo-header-index.png"
+						alt="Thunder Finance logo"
+						class="h-36 w-auto self-start rounded-xl lg:h-44"
+						loading="eager"
+						decoding="async"
+					/>
 				</div>
+			</section>
 
-				<div class="space-y-3">
-					<p class="text-sm font-semibold uppercase tracking-[0.3em] text-[#FED000]/80">How Is It Made</p>
-					<p class="text-base leading-relaxed text-white/90">
-						Web3 Thunder Finance is built as an EVM-compatible yield mixer using Solidity 0.8.19 and the Foundry
-						framework. The core Web3ThunderFinanceMixer.sol pools user deposits and routes them into Aave V3 to
-						generate real yield while preserving privacy via a commitment/nullifier scheme. Deployments live on
-						Celo (Mainnet &amp; Alfajores) for low fees and fast finality, leveraging OpenZeppelin libraries for
-						security and CeloScan for verification. Yield accounting is intentionally lean—we track
-						totalPrincipal and infer yield from the rebasing aToken balance (yield = aTokenBalance -
-						totalPrincipal). The privacy layer currently prototypes a raw commitment map before introducing the
-						full ZK circuits (Circom, Merkle trees) so we can validate the yield flow first.
-					</p>
+			<section class="space-y-5 rounded-3xl border border-white/10 bg-black/35 p-7 sm:p-8">
+				<h2 class="text-2xl font-bold text-[#FED000]">1. Why Now</h2>
+				<p class="font-semibold text-white">The Window Is Open — Three forces have converged to make DPCS possible today.</p>
+				<div class="grid gap-5 md:grid-cols-3">
+					<article class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="text-lg font-semibold">Regulatory Clarity</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">The GENIUS Act, MiCA, SEC Crypto Task Force, and BCB Resolutions have created the first regulatory environment favorable to DeFi protocols with native KYC. Compliance is no longer a barrier, it's a competitive advantage.</p>
+					</article>
+					<article class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="text-lg font-semibold">ZK Maturity</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">Polygon ID, zkMe, and Railgun PPOI have made privacy-preserving identity verification a production reality. Borrowers can prove creditworthiness without exposing personal data.</p>
+					</article>
+					<article class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="text-lg font-semibold">Institutional DeFi</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">S&amp;P and Moody's are already rating on-chain protocols. The infrastructure is ready. The capital is waiting.</p>
+					</article>
 				</div>
+			</section>
 
-				<div class="space-y-3">
-					<p class="text-sm font-semibold uppercase tracking-[0.3em] text-[#FED000]/80">Grants &amp; Equity</p>
-					<p class="text-base leading-relaxed text-white/90">
-						We are looking for grants or investment partners to keep shipping the protocol. Reach out via
-						<a class="font-semibold text-[#FED000] hover:underline" href="mailto:hello@web3thunder.finance">
-							hello@web3thunder.finance
-						</a>,
-						<a
-							class="font-semibold text-[#FED000] hover:underline"
-							href="https://x.com/web3thunderfin"
-							target="_blank"
-							rel="noreferrer"
-						>
-							@web3thunderfin
-						</a>
-						or Telegram: <span class="font-semibold">@jeffprestes</span>
-					</p>
+			<section class="space-y-5 rounded-3xl border border-white/10 bg-black/35 p-7 sm:p-8">
+				<h2 class="text-2xl font-bold text-[#FED000]">2. How It Works</h2>
+				<p class="font-semibold text-white">The DPCS Protocol — Three participants. One trustless credit market.</p>
+				<div class="grid gap-5 md:grid-cols-3">
+					<div class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="font-semibold">Borrower</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">Requests credit, submits financial documentation and information. After analysis, they sign the smart contract and receive funds directly to their wallet.</p>
+					</div>
+					<div class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="font-semibold">Credit Analysts (Validators)</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">Five independent analysts or companies evaluate each credit proposal simultaneously. Each assigns a score (1–1000) and locks 10% of the loan amount as collateral. Analysts earn interest on each installment paid and are penalized in case of default.</p>
+					</div>
+					<div class="rounded-2xl border border-white/10 bg-black/40 p-5">
+						<h3 class="font-semibold">Lenders / Investors</h3>
+						<p class="mt-2 text-sm leading-relaxed text-white/85">Review the five validator scores and decide whether to fund the loan. Provide 100% of the capital. In case of default, 50% of the loss is absorbed and the other 50% is covered by the validators.</p>
+					</div>
 				</div>
+				<div class="rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-relaxed text-white/85">
+					<p class="text-base font-semibold text-white">The Lending Flow</p>
+					<p class="mt-2">Phase 1 — Credit Acquiring: Borrower submits application → Credit Bureau reports score → Validators analyze and score independently → Investor decides to fund → Smart contract executed → Funds released to Borrower</p>
+					<p class="mt-2">Phase 2 — Installment Payments: Borrower initiates payments → Validators receive proportional interest on each installment → Investor receives principal + interest</p>
+					<p class="mt-2">Phase 3 — Settlement: Final installment paid → Validators receive ranking bonus → Investor receives final balance → Contract closed on-chain</p>
+				</div>
+				<div class="rounded-2xl border border-[#FED000]/40 bg-[#FED000]/10 p-5 text-sm leading-relaxed text-white/90">
+					<p class="text-base font-semibold text-[#FED000]">Risk Distribution: Waterfall Model</p>
+					<p class="mt-2">Validators profit from accuracy — NOT volume.</p>
+					<p class="mt-2">On a $100K loan default:</p>
+					<ul class="mt-2 list-disc space-y-1 pl-5">
+						<li>Validator Stakes — $50K (50%): $10K deducted from each of the 5 validators who approved the credit</li>
+						<li>Investor Absorption — $50K (50%): Residual loss absorbed by the lender</li>
+					</ul>
+					<p class="mt-2">Distributed risk-sharing creates aligned incentives: validators profit from accuracy, not volume. The waterfall model protects the system and keeps all participants accountable.</p>
+				</div>
+			</section>
+
+			<section class="space-y-5 rounded-3xl border border-white/10 bg-black/35 p-7 sm:p-8">
+				<h2 class="text-2xl font-bold text-[#FED000]">3. The Analyst Journey</h2>
+				<p class="font-semibold text-white">Become a Credit Validator — Earn yield. Build reputation. Shape DeFi credit.</p>
+				<ol class="grid gap-4 md:grid-cols-2">
+					<li class="rounded-2xl border border-white/10 bg-black/40 p-5"><p class="font-semibold">Step 1 — Application</p><p class="mt-2 text-sm leading-relaxed text-white/85">Apply to join the protocol. Submit your ID, documents, professional profile and other data.</p></li>
+					<li class="rounded-2xl border border-white/10 bg-black/40 p-5"><p class="font-semibold">Step 2 — Identification</p><p class="mt-2 text-sm leading-relaxed text-white/85">KYC, AML, and PEP screening. Once approved, you are eligible to analyze credit proposals.</p></li>
+					<li class="rounded-2xl border border-white/10 bg-black/40 p-5"><p class="font-semibold">Step 3 — Security Deposit</p><p class="mt-2 text-sm leading-relaxed text-white/85">Deposit a minimum of $10K as collateral. This amount backs your first ranking as a Validator and signals your commitment to the protocol.</p></li>
+					<li class="rounded-2xl border border-white/10 bg-black/40 p-5"><p class="font-semibold">Step 4 — Analyst Credibility</p><p class="mt-2 text-sm leading-relaxed text-white/85">Your ranking improves over time based on the ratio between your deposit and the successful credits you have approved. The more accurate your assessments, the higher your reputation.</p></li>
+				</ol>
+			</section>
+
+			<section class="space-y-5 rounded-3xl border border-white/10 bg-black/35 p-7 sm:p-8">
+				<h2 class="text-2xl font-bold text-[#FED000]">4. Trust &amp; Compliance</h2>
+				<p class="font-semibold text-white">Built for Institutions. Secured by Design.</p>
+				<div class="grid gap-5 md:grid-cols-2">
+					<div class="rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-relaxed text-white/85">
+						<p class="font-semibold text-white">Smart Contract Security</p>
+						<ul class="mt-2 list-disc space-y-1 pl-5">
+							<li>3+ independent security audits</li>
+							<li>Formal verification of lending logic</li>
+							<li>Bug bounty program on ImmuneFi</li>
+						</ul>
+					</div>
+					<div class="rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-relaxed text-white/85">
+						<p class="font-semibold text-white">Regulatory Compliance</p>
+						<ul class="mt-2 list-disc space-y-1 pl-5">
+							<li>Validators and clients KYC integrated from launch</li>
+							<li>FATF Travel Rule compatible</li>
+							<li>Institutional validator oversight</li>
+						</ul>
+					</div>
+				</div>
+				<p class="text-sm font-semibold text-[#FED000]">$2.2B stolen in DeFi in 2024 — security is non-negotiable.</p>
+				<div class="rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-relaxed text-white/85">
+					<p class="font-semibold text-white">Compliance by Architecture</p>
+					<p class="mt-2">DPCS does not adapt compliance to the protocol — compliance is the protocol.</p>
+					<p class="mt-2"><span class="font-semibold text-white">Regulatory Principles</span> — Verified and encrypted data · Minimal data exposure · Audited system</p>
+					<p class="mt-2"><span class="font-semibold text-white">Multi-Regulation Alignment</span> — Accountability · Minimum data collection · Necessity and proportionality · Risk-based approach · Security</p>
+					<p class="mt-2"><span class="font-semibold text-white">Model Regulatory Adherence</span> — No transit of personal data · No sharing of sensitive data · No transfer to foreign servers · Minimum access · Explicit consent</p>
+					<p class="mt-2"><span class="font-semibold text-white">KYC / AML / CFT (FATF/GAFI)</span> — User identification and verification · Ongoing monitoring · Proof of Innocence · Audit via commitment + signature · Banking partners trust on the audit and the protocol</p>
+					<p class="mt-2"><span class="font-semibold text-white">Travel Rule / VASP (FATF, FinCEN, EU)</span> — Screened users · Non-sanctioned users · No PII sharing · No banking secrecy violation · VASP Privacy-Preserving compatible</p>
+				</div>
+				<div class="rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-relaxed text-white/85">
+					<p class="font-semibold text-white">Institutional Validator Strategy</p>
+					<p class="mt-2">Institutional validators create a compliance and credibility moat impossible to replicate.</p>
+					<p class="mt-2"><span class="font-semibold text-white">Credit Rating Agencies</span> — S&amp;P Global, Fitch Ratings · Already rating DeFi protocols on-chain</p>
+					<p class="mt-2"><span class="font-semibold text-white">Major Banks</span> — Itaú, Bradesco, Santander · Active blockchain projects</p>
+					<p class="mt-2"><span class="font-semibold text-white">Credit Bureaus</span> — Experian, regional bureaus globally · Local credit data access and expertise</p>
+					<p class="mt-2"><span class="font-semibold text-white">Compliance &amp; Security</span> — Crystal Intelligence, Chainalysis · On-chain monitoring and regulatory compliance</p>
+				</div>
+			</section>
+
+			<section class="space-y-5 rounded-3xl border border-[#FED000]/40 bg-[#FED000]/10 p-7 sm:p-8">
+				<h2 class="text-2xl font-bold text-[#FED000]">5. Partner With Us</h2>
+				<p class="text-white">We are building the credit infrastructure for the next financial system.</p>
+				<p class="text-sm leading-relaxed text-white/90">We are actively seeking grants, ecosystem funding, and strategic investment partners to accelerate protocol development, testnet launch, and institutional validator onboarding.</p>
+				<div class="text-sm leading-relaxed text-white/90">
+					<p class="font-semibold text-white">Reach Out</p>
+					<p>Email: <a class="text-[#FED000] hover:underline" href="mailto:hello@web3thunder.finance">hello@web3thunder.finance</a></p>
+					<p>Twitter/X: <a class="text-[#FED000] hover:underline" href="https://x.com/web3thunderfin" target="_blank" rel="noreferrer">@web3thunderfin</a></p>
+					<p>Telegram: <span class="font-semibold">@jeffprestes</span></p>
+				</div>
+				<p class="pt-3 text-xs tracking-[0.2em] text-white/70">DPCS — Thunder Finance · web3thunder.finance</p>
 			</section>
 		</main>
 	</div>
